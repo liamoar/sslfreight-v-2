@@ -2,29 +2,26 @@
 	margin: 0px;
 	padding: 0px;
 }
-.s2l-color{
-    color: rgb(79,129,188)!important;;
-  }
   /* Navigation*/
     .navbar{
-      background-color: transparent;
-    }
+      background-color: #000;
+    }   
 
     .navbar
     .navbar-contact{
       background-color: #000;
     }
-    
+
 		.navbar
     .scrolling-navbar {
       transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
     .top-nav-collapse {
-      background-color: #f3f2f2;
-    }
-    /*footer.page-footer {
       background-color: #000000;
-    }*/
+    }
+    footer.page-footer {
+      background-color: #000000;
+    }
     @media only scren and (max-width:769px){
       .page-footer{
          background-color: #000000;
@@ -32,34 +29,17 @@
     }
     @media only screen and (max-width: 768px) {
       .navbar {
-        background-color: #f3f2f2;
+        background-color: #282923;
       }
     }
     /* for home page only)*/
-
     .navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
     /* background-color: rgba(255,255,255,.1); */
     color: rgb(79,129,188);
     }
-   
-
-    .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-    color: #000;
-    -webkit-transition: .35s;
-    -o-transition: .35s;
-    transition: .35s;
-    }
-    
-
-
-
-
-
-
     footer.page-footer {
     background-color: #616161;
-    }
-
+}
 
 
     /* Necessary for full page carousel*/
@@ -69,37 +49,7 @@
       height: 100%;
     }
 
-    /* Carousel*/
-    .carousel,
-    .carousel-item,
-    .carousel-item.active {
-      height: 100%;
-    }
-    .carousel-inner {
-      height: 100%;
-    }
-    .carousel-item:nth-child(1) {
-      background-image: url("../img/air1.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-    }
-    .carousel-item:nth-child(2) {
-      background-image: url("../img/sow.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-    }
-    .carousel-item:nth-child(3) {
-      background-image: url("../img/Big-Truck.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-    }
-}
-
-
-
+  
 /*index cards*/
 .card{
     margin-top: 20px;
@@ -110,13 +60,6 @@
     box-shadow: 0 0 11px rgba(33,33,33);
   }
 
-h1 {
-  letter-spacing: 8px;
-}
-
-h5 {
-  letter-spacing: 2px;
-}
 h6{
 	line-height: 1.7;
 }
@@ -136,8 +79,31 @@ hr{
   height: 100%;
 }
 
+@media(max-width: 992px) {
+  .view{
+    width: auto;
+    height: auto;
+    background-size: cover;
+  }
+}
+
+
 @media(max-width: 800px){
   #text-displace{
     margin-left: 20px;
   }
 }
+
+.vl {
+    border-left: 6px solid #20B2AA;
+    height: 484px;
+    margin-left: 27px;
+}
+
+@media(max-width: 767px) {
+  .vl{
+    display: none;
+  }
+}
+
+

@@ -1,0 +1,75 @@
+body, html {
+  height: 100%;
+}
+.s2l-color{
+    color: rgb(79,129,188)!important;;
+  }
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.logo {
+   height: 38px;
+    width: 80px;
+}
+.bg {
+  /* The image used */
+  background-color:#ffffff;
+
+  /* Full height */
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+  /* Navigation*/
+    .navbar {
+      background-color: #f3f2f2;
+    }
+    .scrolling-navbar {
+      transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+      background-color: #f3f2f2;
+    }
+    footer.page-footer {
+      background-color: #616161;
+    }
+    @media only scren and (max-width:769px){
+      .page-footer{
+         background-color: #616161;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      .navbar {
+    background-color: #f3f2f2;
+}
+    }
+    @media only scren and (max-width:769px){
+      .bg{
+         height: 150%;
+      }
+    }
+
+    .hr-light {
+      border-top: 5px solid #fff;
+  }
+  hr{
+    margin-top: 0;
+  }
+  .mb-4, .my-4 {
+    margin-bottom: 0 !important;
+  }
+.card {
+    -webkit-box-shadow: 0 0px 0px 0 rgba(0,0,0), 0 0px 0px 0 rgba(0,0,0);
+    box-shadow: 0 0px 0px 0 rgba(0,0,0), 0 0px 0px 0 rgba(0,0,0); 
+    border: 0;
+    border-radius: 0px;
+}

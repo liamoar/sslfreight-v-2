@@ -5816,6 +5816,7 @@ button.close {
   position: relative;
   width: 100%;
   overflow: hidden;
+  
 }
 
 .carousel-item {
@@ -5828,6 +5829,7 @@ button.close {
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
+
 }
 
 .carousel-item.active,

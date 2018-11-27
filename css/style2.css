@@ -1,0 +1,368 @@
+.backimg {
+  /* The image used */
+  background-image: url('../img/contact.jpg');
+
+  /* Half height */
+  height: 45%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.s2l-color{
+    color: #00b8e6!important;;
+  }
+
+.navbar {
+    background-color: #f3f2f2;
+}
+
+.top-nav-collapse {
+    background-color: #f3f2f2;
+}
+
+
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+    color: #00b8e6;
+}
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #000;
+
+}
+
+
+.navbar.navbar-dark .navbar-toggler-icon {
+    background-image: url(https://mdbootstrap.com/img/svg/hamburger4.svg?color=ef5350);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #f3f2f2;
+    }
+}
+
+html,
+body
+{
+  height:100%;
+}
+header{
+  height:45% !important;
+}
+
+ .holder {
+    float: left;
+    max-width: 850px;
+    text-transform: uppercase;
+}
+
+.line {
+    background: #f73246;
+    margin: 0;
+    width: 50px;
+    height: 4px;
+    margin-bottom: 10px;
+}
+
+.page-title .line {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    margin: 0 0 0 -40px;
+    width: 80px;
+    height: 4px;
+    background: red;
+}
+
+.page-title {
+    z-index: 5;
+    font-size: 16px;
+    max-width: 900px;
+    line-height: 26px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto 0px;
+}
+
+.page-title-copy {
+    color: #222;
+    display: block;
+    padding: 0 0 25px;
+    position: relative;
+    font-weight: 600;
+}
+.contact-subtitle {
+    margin: 10px auto 50px;
+    color: #222;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: bold;
+    max-width: 900px;
+}
+
+.contact-address {
+    color: #2a2a2a;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.contact-address .contact-info {
+    overflow: hidden;
+    padding: 7px 0 0 7.2%;
+}
+.contact-address .contact-info h3 {
+    font-size: 16px;
+    color: #8f8f8f;
+    text-transform: uppercase;
+}
+
+.contact-address h3 {
+    margin: 0 0 6px;
+    position: relative;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font: 600 12px "Poppins","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.contact-address h3 .fa {
+    color: #f73246;
+}
+
+.contact-address h3 .fa {
+    position: absolute;
+    left: -40px;
+    top: 2px;
+    font-size: 18px;
+}
+.contact-address .contact-info h4 {
+    font-size: 16px;
+}
+.contact-address .contact-info address {
+    color: #8f8f8f;
+}
+.contact-address address {
+    display: block;
+    margin: 0 0 21px;
+    line-height: 24px;
+}
+.contact-address .tel-box {
+    overflow: hidden;
+    margin: 0 0 10px;
+}
+.tel-box address{
+  color: #8f8f8f;
+  display: block;
+  margin: 0 0 10px;
+  line-height: 10px;
+}
+
+@media (min-width: 768px){
+.col-sm-offset-2 {
+    margin-left: 16.6666666667%;
+}
+}
+
+@media only scren and (max-width:769px){
+  .page-footer{
+     background-color: #2a2a2a;
+  }
+}
+
+footer.page-footer {
+background-color: #2a2a2a;
+}
+
+
+.special-color-dark {
+    background-color: #222!important;
+}
+
+
+
+/*  servicepage */
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #00b8e6;
+    background-color: #f3f2f2;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.btn-info {
+    background-color: #f73246 !important;
+    color: #fff!important;
+}
+
+
+
+footer.page-footer {
+background-color: #616161;
+}
+
+
+/*about page*/
+.about-section {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+}
+
+.page-heading {
+    z-index: 5;
+    font-size: 16px;
+    overflow: hidden;
+    max-width: 900px;
+    line-height: 26px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto 60px;
+}
+
+.page-heading .lime {
+    color: #222;
+}
+.lime{
+  background-color: #fff !important;
+}
+
+.page-heading .font-medium {
+    font-weight: 600;
+}
+
+.page-heading h2 {
+    margin: 0;
+    font: 36px/50px "Poppins","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+
+
+p {
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px;
+}
+}
+.about-section .box {
+    margin: 0 0 28px;
+    overflow: hidden;
+}
+
+.about-section h3 {
+    color: #2a2a2a;
+    margin: 0 0 3px;
+    position: relative;
+    padding: 0 0 0 15px;
+    text-transform: uppercase;
+    font: 16px/20px "Lato",Georgia,"Times New Roman",Times,serif;
+}
+
+.about-section .fa {
+    color: #f73246;
+}
+
+.about-section .fa {
+    left: 0;
+    top: 3px;
+    position: absolute;
+}
+.fa-caret-right .dot {
+    content: "\f0da";
+}
+
+.about-section p {
+    margin: 0;
+}
+
+.w-100 {
+    width: 100%!important;
+    height:60%!important;
+}
+
+
+.bg-grey {
+    background: #f8f8f8;
+}
+
+.f-iconbox {
+    z-index: 5;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    padding-left: 96px;
+}
+.f-iconbox .icon {
+    color: #f73246;
+    border-color: #f73246 !important;
+}
+
+.f-iconbox .icon {
+    left: 0;
+    top: 7px;
+    font-size: 25px;
+    padding: 20px 0 0;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    border: 2px solid transparent;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.fa-check .tick {
+    content: "\f00c";
+}
+.f-iconbox .title {
+    color: #2a2a2a;
+    display: block;
+    margin: 0 0 9px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.f-iconbox:hover .icon {
+    background: #f73246;
+}
+
+.f-iconbox:hover .icon {
+    color: white;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.f-iconbox p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
