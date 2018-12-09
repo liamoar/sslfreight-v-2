@@ -31,7 +31,7 @@
 
   <!-- navbar-->
   <!--Main Navigation-->
-<header class="backimg">
+<header class="about-backimg">
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
@@ -44,17 +44,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home </a>
+          <a class="nav-link" href="index.php">Home </a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="AboutUs.html">About us<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="About.php">About us<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Services.html">Services
+          <a class="nav-link" href="Services.php">Services
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ContactUs.html">Contact Us</a>
+          <a class="nav-link" href="ContactUs.php">Contact Us</a>
         </li>
       </ul>
     </ul>
@@ -78,7 +78,7 @@
         <div class="holder">
            <h2 class="animated fadeIn mb-2 white-text">About Us</h2>
            <div class="line"></div>
-           <p class="animated fadeIn mb-2 white-text">The independent fast growing frieght in nepal</p>
+           <p class="animated fadeIn mb-2 white-text">The independent fast growing Freight in Nepal</p>
         </div>
       </div>
     </div>
@@ -143,46 +143,49 @@
        </div>
      </div>
      <div class="col-lg-6">
-
+        <div id="media-img">
          <!--Carousel Wrapper-->
            <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
            <!--Indicators-->
+           <!--
             <ol class="carousel-indicators">
               <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
               <li data-target="#carousel-example-1z" data-slide-to="1"></li>
               <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-            </ol>
+            </ol>  -->
           <!--/.Indicators-->
           <!--Slides-->
            <div class="carousel-inner" role="listbox">
             <!--First slide-->
             <div class="carousel-item active">
-              <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg" alt="First slide">
+              <img class="d-block w-100" src="img/aboutus-2.jpg" alt="First slide">
             </div>
             <!--/First slide-->
             <!--Second slide-->
             <div class="carousel-item">
-              <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg" alt="Second slide">
+              <img class="d-block w-100" src="img/aboutus-1.jpg" alt="Second slide">
             </div>
             <!--/Second slide-->
             <!--Third slide-->
             <div class="carousel-item">
-              <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg" alt="Third slide">
+              <img class="d-block w-100" src="img/aboutus-3.jpg" alt="Third slide">
             </div>
             <!--/Third slide-->
           </div>
           <!--/.Slides-->
 
           </div>
+
+          </div>
           <!--/.Carousel Wrapper-->
 
 
-
+        </div>
      </div>
    </div>
 </section>
 
-<section class="bg-grey" style="padding-top:90px;padding-bottom:60px">
+<section class="bg-grey" style="padding-top:90px;padding-bottom:60px;">
   <div class="container">
     <div class="row">
       <div class="col-lg-4">
@@ -197,7 +200,7 @@
               <span class=title>Entreprenural</span>
             </div>
             <div class="f-iconbox" style="padding-bottom:30px;">
-              <p>Founded by an entrepreneur (Mellissah Smith) and built with entrepreneurs in mind.
+              <p>Founded by an entrepreneur and built with entrepreneurs in mind.
                 We believe that if you reach for stars and work hard, you can achieve anything.</p>
             </div>
           </div>
@@ -215,8 +218,9 @@
               <span class=title>Structured</span>
             </div>
             <div class="f-iconbox" style="padding-bottom:30px;">
-              <p>Founded by an entrepreneur (Mellissah Smith) and built with entrepreneurs in mind.
-                We believe that if you reach for stars and work hard, you can achieve anything.</p>
+              <p>Systems, processes and structure ensures
+                that clients have a clear path to marketing success.
+                 We know, as we have built our business on it.</p>
             </div>
           </div>
         </div>
@@ -233,8 +237,11 @@
               <span class=title>Result oriented</span>
             </div>
             <div class="f-iconbox" style="padding-bottom:30px;">
-              <p>Founded by an entrepreneur (Mellissah Smith) and built with entrepreneurs in mind.
-                We believe that if you reach for stars and work hard, you can achieve anything.</p>
+              <p>We are equipped with well-qualified, experienced & trained staff .
+                Our operations are carried out by our highly knowledgeable and experienced
+                 team who have established a solid reputation for designing end-to-end supply
+                 chain solutions that drive process efficiencies.
+                </p>
             </div>
           </div>
         </div>
@@ -254,8 +261,8 @@
      <ul class="list-unstyled list-inline mb-4">
        <li>
          <h5 class="my-4">Solve any problems that may occur during the transportation process</h5></li>
-       <li class="list-inline-item"><a target="_blank" href="contact.html" class="btn btn-info waves-effect waves-red">Contact us</a></li>
-       <li class="list-inline-item"><a target="_blank" href="Services.html" class="btn btn-info waves-effect waves-light">Learn more</a></li>
+       <li class="list-inline-item"><a  href="ContactUs.php" class="btn btn-info waves-effect waves-red">Contact us</a></li>
+       <li class="list-inline-item"><a  href="Services.php" class="btn btn-info waves-effect waves-light">Learn more</a></li>
      </ul>
    </div>
 
@@ -269,7 +276,7 @@
      <!-- Social buttons -->
      <ul class="list-unstyled list-inline text-center">
        <li class="list-inline-item">
-         <a class="btn-floating btn-fb mx-1">
+         <a class="btn-floating btn-fb mx-1" target="_blank" href="https://www.facebook.com/sslfreight.com.np/">
            <i class="fa fa-facebook"> </i>
          </a>
        </li>

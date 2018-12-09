@@ -43,16 +43,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home </a>
+            <a class="nav-link" href="index.php">Home </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="About.html">About us</a>
+            <a class="nav-link" href="About.php">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Services.html">Services</a>
+            <a class="nav-link" href="Services.php">Services</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Contact Us<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="ContactUs.php">Contact Us<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </ul>
@@ -76,7 +76,7 @@
           <div class="holder">
              <h2 class="animated fadeIn mb-2 white-text">Contact us</h2>
              <div class="line"></div>
-             <p class="animated fadeIn mb-2 white-text">The independent fast growing frieght in nepal</p>
+             <p class="animated fadeIn mb-2 white-text">The independent fast growing Freight in Nepal</p>
           </div>
         </div>
       </div>
@@ -173,20 +173,16 @@
 
                <select class="browser-default custom-select mb-4" name="chooseOption" id="chooseOption">
 
-                   <option value="Feedback" selected >Feedback</option>
-                   <option value="Feature Request" >Feature request</option>
+                   <option value="Sea and Air Freight Enqueries" selected >Sea and Air Freight Enquiries</option>
+                   <option value="Inland Enqueries" >Inland Enqueries</option>
+                   <option value="Custom and Documentation" >Custom and Documentation</option>
+
 
                </select>
 
                <!-- Message -->
                <div class="form-group">
                    <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message" name="message"></textarea>
-               </div>
-
-               <!-- Copy -->
-               <div class="custom-control custom-checkbox mb-4">
-                   <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
-                   <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
                </div>
 
                <!-- Send button -->
@@ -219,7 +215,7 @@
        <h5 class="my-4">SSL Freight is  available 24/7 round the clock to assist  you.As we believe  one good customer service experience can change the entire perception a customer holds towards the organization.Do feel free to contact us if any assistance required</h5></li>
        <li><p style="letter-spacing: 2px;">"one stop logistic solution for Sea, Sky & Land."</p></li>
 
-     <li class="list-inline-item"><a target="_blank" href="Services.html" class="btn btn-info waves-effect waves-light">Learn more</a></li>
+     <li class="list-inline-item"><a href="Services.php" class="btn btn-info waves-effect waves-light">Learn more</a></li>
    </ul>
  </div>
 
@@ -233,7 +229,7 @@
    <!-- Social buttons -->
    <ul class="list-unstyled list-inline text-center">
      <li class="list-inline-item">
-       <a class="btn-floating btn-fb mx-1">
+       <a class="btn-floating btn-fb mx-1" target="_blank" href="https://www.facebook.com/sslfreight.com.np/">
          <i class="fa fa-facebook"> </i>
        </a>
      </li>

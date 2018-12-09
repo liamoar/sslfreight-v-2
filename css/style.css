@@ -22,6 +22,19 @@
     .top-nav-collapse {
       background-color: #f3f2f2;
     }
+    .navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+    color: #00b8e6;
+}
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #000;
+
+}
+
+
+.navbar.navbar-dark .navbar-toggler-icon {
+    background-image: url(https://mdbootstrap.com/img/svg/hamburger4.svg?color=ef5350);
+    cursor: pointer;
+}
     /*footer.page-footer {
       background-color: #000000;
     }*/

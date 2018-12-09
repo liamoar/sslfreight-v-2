@@ -29,7 +29,7 @@
 
   <!-- navbar-->
   <!--Main Navigation-->
-<header class="backimg">
+<header class="service-backimg">
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
@@ -42,17 +42,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home </a>
+          <a class="nav-link" href="index.php">Home </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="About.html">About us</a>
+          <a class="nav-link" href="About.php">About us</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="Services.html">Services
+          <a class="nav-link" href="Services.php">Services
           <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ContactUs.html">Contact Us</a>
+          <a class="nav-link" href="ContactUs.php">Contact Us</a>
         </li>
       </ul>
     </ul>
@@ -76,7 +76,7 @@
         <div class="holder">
            <h2 class="animated fadeIn mb-2 white-text">Services</h2>
            <div class="line"></div>
-           <p class="animated fadeIn mb-2 white-text">The independent fast growing frieght in nepal</p>
+           <p class="animated fadeIn mb-2 white-text">The independent fast growing Freight in Nepal</p>
         </div>
       </div>
     </div>
@@ -93,10 +93,10 @@
       <div class="row">
         <div class="col-md-12 col xs-12">
           <div class="page-title">
-             <h2 class="page-title-copy">Services We Provides</h2>
+             <h2 class="page-title-copy">Services We Provide</h2>
                <div class="line"></div>
           </div>
-          <h3 class="contact-subtitle">OUR WIDE RANGE OF SERVICES  READ TO BE EXPERIENCE</h3>
+          <h3 class="contact-subtitle">OUR WIDE RANGE OF SERVICES  READY TO BE EXPERIENCE</h3>
 
           <div class="row">
 
@@ -224,7 +224,7 @@
 
                        <!--Card image-->
                        <div class="view overlay">
-                         <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+                         <img class="card-img-top" src="img/warehouse.jpg" alt="Card image cap">
                          <a href="#!">
                            <div class="mask rgba-white-slight"></div>
                          </a>
@@ -252,7 +252,7 @@
 
                        <!--Card image-->
                        <div class="view overlay">
-                         <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
+                         <img class="card-img-top" src="img/img1.jpg" alt="Card image cap">
                          <a href="#!">
                            <div class="mask rgba-white-slight"></div>
                          </a>
@@ -279,7 +279,7 @@
 
                        <!--Card image-->
                        <div class="view overlay">
-                         <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+                         <img class="card-img-top" src="img/documentation.jpg" alt="Card image cap">
                          <a href="#!">
                            <div class="mask rgba-white-slight"></div>
                          </a>
@@ -329,8 +329,8 @@
      <ul class="list-unstyled list-inline mb-4">
        <li>
          <h5 class="my-4">Solve any problems that may occur during the transportation process</h5></li>
-       <li class="list-inline-item"><a target="_blank" href="contact.html" class="btn btn-info waves-effect waves-red">Contact us</a></li>
-       <li class="list-inline-item"><a target="_blank" href="Services.html" class="btn btn-info waves-effect waves-light">Learn more</a></li>
+       <li class="list-inline-item"><a  href="ContactUs.php" class="btn btn-info waves-effect waves-red">Contact us</a></li>
+       <li class="list-inline-item"><a  href="Services.php" class="btn btn-info waves-effect waves-light">Learn more</a></li>
      </ul>
    </div>
 
@@ -344,7 +344,7 @@
      <!-- Social buttons -->
      <ul class="list-unstyled list-inline text-center">
        <li class="list-inline-item">
-         <a class="btn-floating btn-fb mx-1">
+         <a class="btn-floating btn-fb mx-1" target="_blank" href="https://www.facebook.com/sslfreight.com.np/">
            <i class="fa fa-facebook"> </i>
          </a>
        </li>

@@ -1,6 +1,6 @@
 .backimg {
   /* The image used */
-  background-image: url('../img/contact.jpg');
+  background-image: url('../img/aboutus-3.jpg');
 
   /* Half height */
   height: 45%;
@@ -11,6 +11,28 @@
   background-size: cover;
 }
 
+.service-backimg {
+    background-image: url('../img/fast-freight.jpg');
+
+  /* Half height */
+  height: 45%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-backimg {
+    background-image: url('../img/globalization.png');
+
+  /* Half height */
+  height: 45%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 .s2l-color{
@@ -365,4 +387,27 @@ p {
 
 * {
     box-sizing: border-box;
+}
+
+/*about us*/
+
+.carousel-item{
+    height: 600px;
+    width: auto;
+
+}
+
+@media(max-width: 574px){
+    .holder{
+        padding-left: 15px;
+    }
+}
+
+
+@media(max-width: 992px){
+    #media-img{
+        margin-top: 23px;
+        margin-bottom: -215px;
+
+    }
 }

@@ -50,18 +50,18 @@
         <!-- Links -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link waves-effect waves-light" href="index.html">Home
+            <a class="nav-link waves-effect waves-light" href="index.php">Home
                 <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" href="About.html">About us</a>
+            <a class="nav-link waves-effect waves-light" href="About.php">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" href="Services.html">Services</a>
+            <a class="nav-link waves-effect waves-light" href="Services.php">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link waves-effect waves-light" href="ContactUs.html">Contacts</a>
+            <a class="nav-link waves-effect waves-light" href="ContactUs.php">Contacts</a>
           </li>
           </ul>
         <ul class="navbar-nav nav-flex-icons">
@@ -112,10 +112,10 @@
                 <p class="font-weight-bold text-uppercase py-4">The independent fast growing Freight Forwarder in the Nepal.</p>
               </li>
               <li class="list-inline-item">
-                <a target="_blank" href="contactUs.html" class="btn btn-info btn-lg btn-rounded mr-0 waves-effect waves-light">Contact us</a>
+                <a  href="contactUs.php" class="btn btn-info btn-lg btn-rounded mr-0 waves-effect waves-light">Contact us</a>
               </li>
               <li class="list-inline-item">
-                <a target="_blank" href="Services.html" class="btn btn-cyan btn-lg btn-rounded ml-0 waves-effect waves-light">Learn more</a>
+                <a  href="Services.php" class="btn btn-cyan btn-lg btn-rounded ml-0 waves-effect waves-light">Learn more</a>
               </li>
             </ul>
           </div>
@@ -137,7 +137,7 @@
                 <p class="font-weight-bold text-uppercase py-4">Import and export services from over 1000 origins and destinations.</p>
               </li>
               <li>
-                <a target="_blank" href="Services.html" class="btn btn-info btn-rounded btn-lg waves-effect waves-light">learn about us</a>
+                <a href="Services.php" class="btn btn-info btn-rounded btn-lg waves-effect waves-light">learn about us</a>
               </li>
             </ul>
           </div>
@@ -158,7 +158,7 @@
                 <p class="font-weight-bold text-uppercase py-4">The ‘go to’ company for full-service global freight management. </p>
               </li>
               <li>
-                <a target="_blank" href="contactUs.html" class="btn btn-lg btn-info btn-rounded waves-effect waves-light">Contact us</a>
+                <a  href="contactUs.php" class="btn btn-lg btn-info btn-rounded waves-effect waves-light">Contact us</a>
               </li>
             </ul>
           </div>
@@ -319,8 +319,8 @@
         <li>
           <h5 class="my-4">Solve any problems that may occur during the transportation process</h5></li>
           <li><p style="letter-spacing: 2px;">"one stop logistic solution for Sea, Sky & Land."</p></li>
-        <li class="list-inline-item"><a target="_blank" href="contactUs.html" class="btn btn-info waves-effect waves-light">Contact us</a></li>
-        <li class="list-inline-item"><a target="_blank" href="Services.html" class="btn btn-default waves-effect waves-light">Learn more</a></li>
+        <li class="list-inline-item"><a  href="contactUs.php" class="btn btn-info waves-effect waves-light">Contact us</a></li>
+        <li class="list-inline-item"><a  href="Services.php" class="btn btn-default waves-effect waves-light">Learn more</a></li>
       </ul>
     </div>
 
@@ -334,7 +334,7 @@
       <!-- Social buttons -->
       <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1">
+          <a class="btn-floating btn-fb mx-1" target="_blank" href="https://www.facebook.com/sslfreight.com.np/">
             <i class="fa fa-facebook"> </i>
           </a>
         </li>
